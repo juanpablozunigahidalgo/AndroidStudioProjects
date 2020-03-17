@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Dolar">Enter Dolar</string>
+    <string name="British">British result</string>
+    <string name="Button">Convert</string>
+    <string name="Image">image</string>
+</resources>
