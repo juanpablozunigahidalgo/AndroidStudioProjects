@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TriangleorSquare</string>
+    <string name="check_if_number_is_square_or_triangle">Check if number is Square or Triangle</string>
+    <string name="textme">Enter your number here</string>
+    <string name="image">img</string>
+</resources>
