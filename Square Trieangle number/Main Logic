@@ -1,0 +1,28 @@
+package domain;
+import java.util.Arrays; 
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        int number=82;
+        int tri=1;
+        int sqa=1;
+        int [] arrt= {1};
+        int [] arrb= {1};
+        for (int i=1; i<=100; i++){
+            tri=((i*(i+1))/2);
+            sqa=i*i;
+            arrt = Arrays.copyOf(arrt, arrt.length + 1);
+            arrt [arrt.length - 1] = tri; 
+            arrb = Arrays.copyOf(arrb, arrb.length + 1);
+            arrb [arrb.length - 1] = sqa; 
+        }
+        for (int i=1; i<=100; i++){
+            if (arrt [i] == number ) {
+            System.out.println("number is triangle");
+            }
+            if (arrb [i]== number) {
+            System.out.println("number is square");
+            }
+        }
+    }
+}
